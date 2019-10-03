@@ -1,0 +1,40 @@
+{
+  "name": "node-rest-es6",
+  "version": "1.0.0",
+  "description": "restful services in node and express with ES6",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --require @babel/register tests/*.js --exit",
+    "build": "babel src --out-dir dist --copy-files",
+    "start": "NODE_ENV=development nodemon --exec babel-node src/server.js",
+    "serve": "NODE_ENV=production node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambianBeing/node-rest-es6.git"
+  },
+  "author": "ambianBeing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambianBeing/node-rest-es6/issues"
+  },
+  "homepage": "https://github.com/ambianBeing/node-rest-es6#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.1",
+    "nodemon": "^1.19.3"
+  }
+}

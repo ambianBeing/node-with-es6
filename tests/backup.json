@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "address": "Lorem Ipsum",
+    "phone": "+98-9719442432",
+    "email": "jhdoe@gmail.com",
+    "owns": [
+      { "id": 1, "type": 1, "name": "shadow", "age": 13, "colour": "brown" },
+      { "id": 55, "type": 2, "name": "silly", "age": 2, "colour": "black" },
+      { "id": 4, "type": 1, "name": "catawesome", "age": 4, "colour": "white" }
+    ],
+    "createdAt": "2018-10-02T20:31:39.670Z",
+    "updatedAt": "2019-01-23T20:31:39.670Z"
+  },
+  {
+    "id": 2,
+    "name": "Jane Doe",
+    "address": "Lorem Ipsum",
+    "phone": "+98-9419442432",
+    "email": "jndoe@gmail.com",
+    "owns": [
+      { "id": 77, "type": 2, "name": "drubell", "age": 4, "colour": "white" },
+      { "id": 78, "type": 3, "name": "boxer", "age": 1, "colour": "black" },
+      {
+        "id": 744,
+        "type": 1,
+        "name": "powerangel",
+        "age": 3,
+        "colour": "white"
+      }
+    ],
+    "createdAt": "2018-10-23T20:31:39.670Z",
+    "updatedAt": "2019-05-16T20:31:39.670Z"
+  }
+]

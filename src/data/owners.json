@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Peter Parker",
+    "address": "56th Queens LA, USA",
+    "phone": "+98-9719442432",
+    "email": "pepa@gmail.com",
+    "owns": [
+      { "id": 1, "type": 1, "name": "shadow", "age": 13, "colour": "brown" },
+      { "id": 55, "type": 2, "name": "silly", "age": 2, "colour": "black" },
+      { "id": 4, "type": 2, "name": "catawesome", "age": 4, "colour": "white" }
+    ],
+    "createdAt": "2018-10-02T20:31:39.670Z",
+    "updatedAt": "2019-01-23T20:31:39.670Z"
+  },
+  {
+    "id": 2,
+    "name": "Steve Rogers",
+    "address": "76th Avenue, Brooklynn NY, USA",
+    "phone": "+98-9415442432",
+    "email": "steve.rog@gmail.com",
+    "owns": [
+      { "id": 77, "type": 2, "name": "drubell", "age": 4, "colour": "white" },
+      { "id": 78, "type": 1, "name": "boxer", "age": 1, "colour": "black" }
+    ],
+    "createdAt": "2018-10-23T20:31:39.670Z",
+    "updatedAt": "2019-05-16T20:31:39.670Z"
+  },
+  {
+    "id": 3,
+    "name": "Carol Danvers",
+    "address": "45th 7A Street, California, USA",
+    "phone": "+98-9415552432",
+    "email": "caroldanvers@gmail.com",
+    "owns": [
+      { "id": 456, "type": 1, "name": "flarken", "age": 4, "colour": "white" }
+    ],
+    "createdAt": "2018-05-23T20:31:39.670Z",
+    "updatedAt": "2019-08-16T20:31:39.670Z"
+  }
+]
